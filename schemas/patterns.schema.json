@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "https://opawg.org/patterns",
-  "title": "OPAWG patterns file, used for matching User-Agent or Referer headers to identity podcast user agents.",
+  "title": "OPAWG patterns file.",
   "description": "Top-level file, containing a list of named entries, their associated regular expression patterns, and other properties",
   "type": "object",
   "properties": {
