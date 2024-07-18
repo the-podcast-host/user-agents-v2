@@ -16,7 +16,7 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
         with:
-          target_sync_branch: main
+          target_sync_branch: andrew/sync # TODO - change back to main
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_branch: master
           upstream_sync_repo: opawg/user-agents-v2
@@ -24,7 +24,7 @@ jobs:
       - name: Trigger package CI/CD
         # if: steps.sync.outputs.has_new_commits == 'true'
         run: |
-          curl -X POST https://api.github.com/repos/the-podcast-host/package/dispatches \
+          curl -X POST https://api.github.com/repos/the-podcast-host/user-agents-v2-api/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -u ${{ secrets.PERSONAL_ACCESS_TOKEN }} \
-          --data '{"event_type": "ci_cd", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+          --data '{"event_type": "ci_cd"}'
