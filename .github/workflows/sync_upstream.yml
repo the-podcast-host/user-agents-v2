@@ -22,7 +22,7 @@ jobs:
           upstream_sync_repo: opawg/user-agents-v2
 
       - name: Trigger package CI/CD
-        # if: steps.sync.outputs.has_new_commits == 'true'
+        if: steps.sync.outputs.has_new_commits == 'true'
         run: |
           curl -X POST https://api.github.com/repos/the-podcast-host/user-agents-v2-api/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
