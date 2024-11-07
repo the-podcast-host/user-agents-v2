@@ -1706,6 +1706,12 @@
       ]
     },
     {
+      "name": "JamxFeeds",
+      "examples": [
+        "JamxFeeds/1.0.3"
+      ]
+    },
+    {
       "name": "Jimcast",
       "examples": [
         "Jimcast/1.0 CFNetwork/672.1.15 Darwin/14.0.0"

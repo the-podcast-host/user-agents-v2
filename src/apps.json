@@ -2229,6 +2229,16 @@
       ]
     },
     {
+      "name": "JamxFeeds",
+      "pattern": "^JamxFeeds/",
+      "examples": [
+        "JamxFeeds/1.0.3"
+      ],
+      "urls":[
+        "https://play.google.com/store/apps/details?id=ai.jamx.feeds"
+      ]
+    },
+    {
       "name": "Jimcast",
       "pattern": "^Jimcast/",
       "examples": [
