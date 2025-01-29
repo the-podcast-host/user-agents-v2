@@ -1137,6 +1137,10 @@
       "pattern": "LG Player"
     },
     {
+      "name": "LG webOS TV",
+      "pattern": "Web0S; Linux/SmartTV.*WebAppManager"
+    },
+    {
       "name": "LifeEssentials",
       "pattern": "^Life(%20)?Essentials(App)?/"
     },
@@ -1347,6 +1351,10 @@
     {
       "name": "PeaCast",
       "pattern": "^PeaCast/"
+    },
+    {
+      "name": "phonostar Radio-App",
+      "pattern": "^phonostar-Player/\\d"
     },
     {
       "name": "Playapod",
