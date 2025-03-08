@@ -1725,6 +1725,10 @@
       "pattern": "^sp-agent"
     },
     {
+      "name": "Seekr",
+      "pattern": "^Seekr/\\d"
+    },
+    {
       "name": "ServeStream",
       "pattern": "^ServeStream Dynamo/|^ServeStream$"
     },
