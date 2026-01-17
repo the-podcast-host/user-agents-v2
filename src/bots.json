@@ -564,6 +564,13 @@
       ]
     },
     {
+      "name": "Freewheel Audio Processor",
+      "pattern": "^Freewheel/",
+      "examples": [
+        "Freewheel/1.0 (Audio Processor)"
+      ]
+    },
+    {
       "name": "Fyyd",
       "pattern": "^fyyd-poll"
     },
@@ -654,6 +661,16 @@
       "examples": [
         "Headliner/1.0.0 +https://headliner.app",
         "Headliner/1.0.0  https://headliner.app"
+      ]
+    },
+    {
+      "name": "HTTrack website copier",
+      "pattern": " HTTrack ",
+      "examples": [
+        "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)"
+      ],
+      "urls": [
+        "https://www.httrack.com/"
       ]
     },
     {
@@ -1070,14 +1087,15 @@
     },
     {
       "name": "Podcastindex.org",
-      "pattern": "^Podcastindex\\.org/|\\(PodcastIndex\\.org\\)",
+      "pattern": "^Podcastindex\\.org/|\\(PodcastIndex\\.org\\)|PodcastIndexManager/",
       "svg": "podcast-index.svg",
       "urls": [
         "https://podcastindex.org/"
       ],
       "examples": [
         "Podcastindex.org/v0.3.3 (Aggrivate)",
-        "Aggrivator (PodcastIndex.org)/v0.1.7"
+        "Aggrivator (PodcastIndex.org)/v0.1.7",
+        "PodcastIndexManager/1.0"
       ]
     },
     {
@@ -1175,6 +1193,16 @@
       ],
       "examples": [
         "Podcorn/1.0"
+      ]
+    },
+    {
+      "name": "Podcst",
+      "pattern": "^Podcst/",
+      "examples": [
+        "Podcst/1.0"
+      ],
+      "urls": [
+        "https://www.podcst.app/"
       ]
     },
     {
@@ -1754,6 +1782,13 @@
       ]
     },
     {
+      "name": "Teeming modal podcast transcriber",
+      "pattern": "^teeming-modal-podcast-transcriber/",
+      "examples": [
+        "teeming-modal-podcast-transcriber/1.0"
+      ]
+    },
+    {
       "name": "TelegramBot",
       "pattern": "^TelegramBot ",
       "examples": [
@@ -1776,6 +1811,13 @@
       ],
       "urls": [
         "https://www.thetradedesk.com/us/ttd-content"
+      ]
+    },
+    {
+      "name": "Vercel screenshot",
+      "pattern": "^vercel-screenshot/",
+      "examples": [
+        "vercel-screenshot/1.0"
       ]
     },
     {

@@ -785,6 +785,10 @@
       "pattern": "^Feeder/"
     },
     {
+      "name": "FeedFlow",
+      "pattern": "^FeedFlow/"
+    },
+    {
       "name": "Feedly",
       "pattern": "^feedly/"
     },
@@ -1471,6 +1475,10 @@
     {
       "name": "Parler",
       "pattern": "^Parler( Staging)?/"
+    },
+    {
+      "name": "Patreon",
+      "pattern": "^Patreon/"
     },
     {
       "name": "PeaCast",
